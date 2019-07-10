@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run start-express`
+
+Starts an express server to run on port 3001 - this is so we can create API end points when needed <br>
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
