@@ -18,9 +18,10 @@ class App extends Component {
   render() {
     let users = ''
     if(this.state.users !== ''){
-      users = this.state.users[0]
+      users = this.state.users[1]
     }
     
+    // This is an edit.
     return (
       <div className="App">
         <header className="App-header">
