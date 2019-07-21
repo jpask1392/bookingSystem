@@ -7,7 +7,9 @@ import './masterStyling.scss'
 class App extends Component {
   constructor(props) {
     super(props)
-    this.state = {users: ''}
+    this.state = {
+      users: ''
+    }
   }
   
   componentDidMount() {
