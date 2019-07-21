@@ -4,6 +4,8 @@ const path = require('path')
 
 const PORT = 3001
 
+app.use('/assets', express.static('assets'))
+
 app.route('/users') 
 	.get((req, res) => {
 		res.json([{
